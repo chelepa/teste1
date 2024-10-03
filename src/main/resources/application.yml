@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sicredi
+
+api:
+  ViaCep:
+    url: http://viacep.com.br/ws
+    path:
+      cepId: /{cepId}/json
